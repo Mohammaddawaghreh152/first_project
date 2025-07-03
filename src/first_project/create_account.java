@@ -73,6 +73,8 @@ public class create_account {
 	driver.findElement(By.className("lock-on-click")).click();
 	}
 
+	
+	//mohammad
 	@Test (priority = 2)
 	public void login () {
 		
@@ -106,7 +108,7 @@ public class create_account {
 	public void closeingbrowser() throws InterruptedException {
 		
 		Thread.sleep(5000);
-		//driver.close();
+		driver.close();
 		
 	}
 	
