@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-30T23:32:48 EET" name="Default suite" finished-at="2025-06-30T23:33:09 EET" duration-ms="20794">
+    <groups>
+    </groups>
+    <test started-at="2025-06-30T23:32:48 EET" name="Default test" finished-at="2025-06-30T23:33:09 EET" duration-ms="20794">
+      <class name="first_project.create_account">
+        <test-method is-config="true" signature="setup()[pri:0, instance:first_project.create_account@4b2a01d4]" started-at="2025-06-30T23:32:48 EET" name="setup" finished-at="2025-06-30T23:32:51 EET" duration-ms="2596" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="signup()[pri:1, instance:first_project.create_account@4b2a01d4]" started-at="2025-06-30T23:32:51 EET" name="signup" finished-at="2025-06-30T23:32:56 EET" duration-ms="5343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup -->
+        <test-method signature="login()[pri:2, instance:first_project.create_account@4b2a01d4]" started-at="2025-06-30T23:32:56 EET" name="login" finished-at="2025-06-30T23:32:59 EET" duration-ms="2313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="AddToCart()[pri:3, instance:first_project.create_account@4b2a01d4]" started-at="2025-06-30T23:32:59 EET" name="AddToCart" finished-at="2025-06-30T23:33:04 EET" duration-ms="5433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddToCart -->
+        <test-method is-config="true" signature="closeingbrowser()[pri:0, instance:first_project.create_account@4b2a01d4]" started-at="2025-06-30T23:33:04 EET" name="closeingbrowser" finished-at="2025-06-30T23:33:09 EET" duration-ms="5016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeingbrowser -->
+      </class> <!-- first_project.create_account -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
